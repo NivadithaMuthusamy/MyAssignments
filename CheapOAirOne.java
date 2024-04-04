@@ -11,11 +11,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class CheapOAir {
+public class CheapOAirOne {
 	
 	@Test
 
-	public void  FilghtCharge() throws InterruptedException {
+	public  void FightCharge() throws InterruptedException {
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("--disable-notifications");
 		ChromeDriver driver=new ChromeDriver(options);
@@ -82,9 +82,14 @@ public class CheapOAir {
 	      System.out.println("The lowest flight charge is:"+text);
 	}
 			
-		}
+		
 		
 		
 	
+
+
+
+
+	}
 
 
